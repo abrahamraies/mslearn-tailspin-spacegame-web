@@ -45,3 +45,5 @@ RUN chmod +x /home/vscode/azure-pipelines/start.sh
 
 # Clean up
 RUN rm -rf /var/lib/apt/lists/* /tmp/library-scripts
+
+FROM mcr.microsoft.com/devcontainers/dotnet:6.0-bullseye
